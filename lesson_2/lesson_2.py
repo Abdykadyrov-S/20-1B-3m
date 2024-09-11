@@ -13,7 +13,7 @@ dp = Dispatcher()
 
 
 buttons = [
-    [KeyboardButton(text='График работы'), KeyboardButton(text="О нас")],
+    [KeyboardButton(text='График работы')], [KeyboardButton(text="О нас")],
     [KeyboardButton(text='График работы'), KeyboardButton(text="О нас")]
 ]
 keyboard = ReplyKeyboardMarkup(keyboard=buttons, resize_keyboard=True)
